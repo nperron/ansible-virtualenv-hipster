@@ -1,0 +1,6 @@
+---
+- name: Show variables
+  debug:
+    msg: "Python version: {{ ansible_python }}"
+
+...

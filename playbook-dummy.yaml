@@ -1,0 +1,8 @@
+---
+
+- name: Dummy playbook
+  hosts: dummy
+  sudo: True
+
+  roles:
+    - { role: dummy,                   tags: ["dummy"] }
