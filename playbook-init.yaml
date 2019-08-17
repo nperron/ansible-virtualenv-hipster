@@ -2,7 +2,7 @@
 
 - name: Ansible initialization
   hosts: all
-  sudo: True
+  become: True
 
   roles:
     - { role: init,                   tags: ["init"] }
